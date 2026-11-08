@@ -77,6 +77,20 @@ Choose whether to remove campaign tags, advertising IDs and social tracking, unw
 
 ![Clean URLs settings and link preview](docs/images/clean-urls.png)
 
+## Ad blocking
+
+Open **Windows Mods → Privacy → Ad blocking**. The bundled filters cover 6,570 unique domains. Choose ads and common trackers, extra analytics, allowed domains and custom blocked domains. The preview shows the proposed count before you apply changes.
+
+Winprove backs up the hosts file and edits only its own marked rules. Switching the mod off removes those rules. Apps using a separate resolver or proxy can bypass them, and ads on the content's own domain cannot be blocked separately. Restart your browser if cached connections keep using the old rules.
+
+![Ad blocking settings with sample domains](docs/images/ad-blocking.png)
+
+## Telemetry
+
+**Windows Mods → Telemetry** has 25 reviewable controls for diagnostics, advertising, activity history, suggestions and browser reporting. These include Windows Error Reporting and Chrome/Firefox reporting switches. Changes use the same detection, review, apply and undo flow as System Customization.
+
+These controls do not guarantee zero telemetry. Windows Home and Pro can still send required diagnostic data, and required service data is separate.
+
 ## Compatibility
 
 - Media actions depend on the selected app. Seeking, shuffle and repeat require that app's Windows playback support.
