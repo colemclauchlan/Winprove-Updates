@@ -69,6 +69,14 @@ Settings include a program whitelist, persistent display, four screen corners an
 
 FPS counts the app's frame submissions, which can differ from frames shown on screen. Missing readings appear as a dash. Protected games and exclusive full-screen overlay compatibility are still being tested.
 
+## Clean URLs
+
+Find it in **Windows Mods → Privacy → Clean URLs**. Automatic cleaning is off until you enable it. Winprove then cleans plain-text clipboard links before you paste or share them; formatted copies and links typed directly in other apps stay unchanged.
+
+Choose whether to remove campaign tags, advertising IDs and social tracking, unwrap supported redirects, or clean links inside messages. Add excluded domains to leave those sites alone. **Try a link** shows the result before you copy it.
+
+![Clean URLs settings and link preview](docs/images/clean-urls.png)
+
 ## Compatibility
 
 - Media actions depend on the selected app. Seeking, shuffle and repeat require that app's Windows playback support.
