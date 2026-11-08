@@ -12,6 +12,8 @@ These are **unsigned development previews** for **Windows 10 2004 or later and W
 
 Setup can install for your Windows account or extract a portable copy to a folder. A separate portable ZIP is also available. Portable preferences stay in the adjacent `Data` folder; move it with the app.
 
+The installed app includes a branded uninstaller in Windows Installed Apps. It closes Winprove normally and removes its tracked app files and shortcuts, keeping preferences, profiles, layouts, screenshots and downloads. Setup and removal share the same styling and a wider progress indicator.
+
 ## Winprove Bar
 
 Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, files, folders and links to the hotbar. Added widgets appear in the sidebar; hotbar pins are configured separately.
@@ -25,7 +27,7 @@ Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, fil
 | Tab | Controls |
 | --- | --- |
 | **Home** | Media, weather, time, quick controls, audio sliders and resource cards. Cards can be rearranged. |
-| **Media** | Audio-source selection, artwork, timeline, playback, shuffle/repeat, mixer and output selection. |
+| **Media** | Audio-source selection, artwork, timeline, playback, shuffle/repeat, mixer and output selection. Hover the source selector and scroll to change sources. |
 | **System** | CPU, GPU and memory readings, a choice of graph styles and top processes. |
 | **Network** | Adapter and IP details, upload/download rates, latency and per-process traffic. |
 | **Tools** | A featured Timer or utility, two labeled or four icon shortcuts, power actions and editable utility tiles. |
@@ -47,7 +49,9 @@ Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, fil
   </tr>
 </table>
 
-Use **Tools layout** in Bar settings to choose the large card. Keep Timer with custom durations, stopwatch and focus sessions, or choose from 24 tools such as Screenshot, Audio mixer, Calculator, clipboard history and system resources. Pins beneath it can show two labeled cards or four compact icons. The remaining selected tools stay in the utility grid, without repeating the featured tool or visible pins.
+Use **Tools layout** in Bar settings to choose the large card. Keep Timer with custom durations, stopwatch and focus sessions, or choose from 29 tools. Unit Converter, Quick Launch, Reminders, Countdowns and Screenshot Editor join Screenshot, Audio mixer, Calculator, clipboard history and the other utilities. Pins beneath the large card can show two labeled cards or four compact icons. The remaining selected tools stay in the utility grid, without repeating the featured tool or visible pins.
+
+Right-click a tool for its settings or actions. Right-click empty space in the grid to arrange the tools.
 
 <table>
   <tr>
@@ -64,6 +68,8 @@ Use **Tools layout** in Bar settings to choose the large card. Keep Timer with c
 
 Settings is always the last icon in the sidebar. Its collapsible groups cover appearance, layout, the status pill, notifications, tools, media and advanced options. Right-click a Home card and choose **Customize** to rearrange cards.
 
+Buttons, icons and menus use matching hover highlights. Long hover explanations wrap to show the full text. Appearance and configuration refreshes keep the current view steady.
+
 **Settings → Appearance** offers Dark, Light, Glass, Custom, Hybrid, ASCII, Matte and Tonal. Matte uses opaque, low-sheen dark surfaces; Tonal uses pale accent-tinted layers. **Saturation** adjusts both the primary and optional secondary accent from 0–200%; 100% preserves the original appearance. Saved colors stay unchanged, and accent-button text adjusts for contrast. Appearance stays synchronized across the hub, Bar and popups.
 
 **Settings → About** uses your accent for the rotating ASCII skull and blinking author cursor. The two icon buttons open the project repository and Cole's portfolio.
@@ -76,6 +82,12 @@ With the Bar along the top edge, double-click its empty top or bottom center to 
 
 **Gaming mode** on Home uses the same setting as **Settings → Background → Lite mode**. The controller icon expands on hover and stays open with **Enabled** while the mode is on, in both the hub and Bar. It pauses tracking, sensors, traffic capture, automatic scans and update checks, media observation and animated wallpapers, and reduces animations. Turning it off restores your saved choices. Manual tools and enabled Windows mods remain available. Downloads and Windows changes already in progress aren't interrupted.
 
+## Notifications
+
+The hub's bell opens saved notification history, with unread and source filters, mark-read and clear actions. **Off**, **On** and **Do not disturb** control Bar notifications; they don't change Windows notification settings.
+
+**Copy Windows history** is opt-in and mirrors available notifications locally. Clearing Winprove's history leaves Windows originals alone. **Dismiss copied originals** requires a supported packaged build, the Windows notification capability and user permission. It is unavailable in the normal unpackaged preview. Where supported, it dismisses only newly copied notifications after a successful save; it doesn't block banners before delivery.
+
 ## Screenshots
 
 Screenshot settings include a magnified-reticle switch and an optional step to adjust the selected area before capturing. Drag to move or resize it, then press Enter or double-click to capture.
@@ -83,6 +95,8 @@ Screenshot settings include a magnified-reticle switch and an optional step to a
 Turn off **Show options after screenshot** to choose one automatic action: copy to the clipboard, open the default viewer, save to your folder, or upload to Imgur and copy the link. Clipboard-only creates no image file, gallery copy or upload. **Capture region to clipboard only** applies that action once without changing your preferred mode.
 
 ![Screenshot output settings](docs/images/screenshot-output.png)
+
+The gallery supports multiple selections and select-all for the visible results. Delete asks for confirmation, then moves the selected files to the Recycle Bin. Favorite changes keep the selection, scroll position and thumbnails in place.
 
 ## Widgets
 
