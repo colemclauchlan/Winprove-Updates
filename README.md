@@ -104,6 +104,8 @@ Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It a
 
 Settings include a program whitelist, persistent display, four screen corners and visibility switches for full-screen apps, the desktop, minimized windows and missing frames. Detailed mode adds frame time, 1% low, CPU, GPU, memory and available temperatures. Capture pauses in Gaming / Lite mode by default.
 
+In **Display → Text only**, the counter draws just the number and **fps** in your accent color on a transparent background. The card, border and hover frame are hidden. Switching it off restores your previous compact or detailed view.
+
 <img src="docs/images/fps-display.png" alt="FPS display with detailed sample readings" width="400" />
 
 FPS counts the app's frame submissions, which can differ from frames shown on screen. Missing readings appear as a dash. Protected games and exclusive full-screen overlay compatibility are still being tested.
