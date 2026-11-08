@@ -55,6 +55,8 @@ The status pill can show readings, time and media, with options for persistent v
 
 With the Bar along the top edge, double-click its empty top or bottom center to close it. The first click shows a semicircular pulse.
 
+Click media artwork to bring its source forward. For Chrome, Winprove selects the matching tab. If a tab is unavailable or several tabs match, it reports that instead of choosing another window.
+
 ## FPS display
 
 Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It also works in the Bar, Windows taskbar and on the desktop.
