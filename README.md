@@ -55,11 +55,22 @@ The status pill can show readings, time and media, with options for persistent v
 
 With the Bar along the top edge, double-click its empty top or bottom center to close it. The first click shows a semicircular pulse.
 
+## FPS display
+
+Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It also works in the Bar, Windows taskbar and on the desktop.
+
+Settings include a program whitelist, persistent display, four screen corners and visibility switches for full-screen apps, the desktop, minimized windows and missing frames. Detailed mode adds frame time, 1% low, CPU, GPU, memory and available temperatures. Capture pauses in Gaming / Lite mode by default.
+
+<img src="docs/images/fps-display.png" alt="FPS display with detailed sample readings" width="400" />
+
+FPS counts the app's frame submissions, which can differ from frames shown on screen. Missing readings appear as a dash. Protected games and exclusive full-screen overlay compatibility are still being tested.
+
 ## Compatibility
 
 - Media actions depend on the selected app. Seeking, shuffle and repeat require that app's Windows playback support.
 - Battery readings require supported connected devices.
 - Per-process traffic requires a one-time administrator-approved collector setup.
+- FPS capture may need a one-time Windows approval to set up its bundled collector.
 
 ## Updates
 
