@@ -70,6 +70,14 @@ With the Bar along the top edge, double-click its empty top or bottom center to 
 
 **Gaming mode** on Home uses the same setting as **Settings → Background → Lite mode**. The controller icon expands on hover and stays open with **Enabled** while the mode is on, in both the hub and Bar. It pauses tracking, sensors, traffic capture, automatic scans and update checks, media observation and animated wallpapers, and reduces animations. Turning it off restores your saved choices. Manual tools and enabled Windows mods remain available. Downloads and Windows changes already in progress aren't interrupted.
 
+## Screenshots
+
+Screenshot settings include a magnified-reticle switch and an optional step to adjust the selected area before capturing. Drag to move or resize it, then press Enter or double-click to capture.
+
+Turn off **Show options after screenshot** to choose one automatic action: copy to the clipboard, open the default viewer, save to your folder, or upload to Imgur and copy the link. Clipboard-only creates no image file, gallery copy or upload. **Capture region to clipboard only** applies that action once without changing your preferred mode.
+
+![Screenshot output settings](docs/images/screenshot-output.png)
+
 ## FPS display
 
 Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It also works in the Bar, Windows taskbar and on the desktop.
