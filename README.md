@@ -16,6 +16,8 @@ Setup can install for your Windows account or extract a portable copy to a folde
 
 Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, files, folders and links to the hotbar. Added widgets appear in the sidebar; hotbar pins are configured separately.
 
+**Winprove Bar → Hotbar pins** has compact rows with search, drag reordering, per-pin visibility and shared icon choices. Save up to 16 named pin lists and quick-select one from the card. Lists keep their own order, names, targets, icons and switches; editing the current pins leaves the saved list unchanged until you update it. Undo restores the previous pin/list change. Deleting a saved list leaves the current pins in place.
+
 ![Winprove Bar Home](docs/images/bar-home.png)
 
 *These previews use sample data rendered by Winprove's native UI.*
