@@ -62,6 +62,8 @@ Use **Tools layout** in Bar settings to choose the large card. Keep Timer with c
 
 Settings is always the last icon in the sidebar. Its collapsible groups cover appearance, layout, the status pill, notifications, tools, media and advanced options. Right-click a Home card and choose **Customize** to rearrange cards.
 
+**Settings → Appearance** offers Dark, Light, Glass, Custom, Hybrid, ASCII, Matte and Tonal. Matte uses opaque, low-sheen dark surfaces; Tonal uses pale accent-tinted layers. **Saturation** adjusts both the primary and optional secondary accent from 0–200%; 100% preserves the original appearance. Saved colors stay unchanged, and accent-button text adjusts for contrast. Appearance stays synchronized across the hub, Bar and popups.
+
 **Settings → About** uses your accent for the rotating ASCII skull and blinking author cursor. The two icon buttons open the project repository and Cole's portfolio.
 
 ![Winprove Bar Settings](docs/images/bar-settings.png)
