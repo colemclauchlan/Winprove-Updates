@@ -26,7 +26,7 @@ Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, fil
 | **Media** | Audio-source selection, artwork, timeline, playback, shuffle/repeat, mixer and output selection. |
 | **System** | CPU, GPU and memory readings, a choice of graph styles and top processes. |
 | **Network** | Adapter and IP details, upload/download rates, latency and per-process traffic. |
-| **Tools** | Power actions, custom timers, stopwatch, focus sessions and editable utility tiles. |
+| **Tools** | A featured Timer or utility, two labeled or four icon shortcuts, power actions and editable utility tiles. |
 | **Shelf** | Files, text, pinned shortcuts and clipboard history, with search, copy, open and clear actions. |
 | **Devices battery** | Readings for supported wireless devices, display styles, names, icons, scanning and visibility settings. |
 
@@ -45,6 +45,19 @@ Open the Bar from the status pill, tray icon or keyboard shortcut. Pin apps, fil
   </tr>
 </table>
 
+Use **Tools layout** in Bar settings to choose the large card. Keep Timer with custom durations, stopwatch and focus sessions, or choose from 24 tools such as Screenshot, Audio mixer, Calculator, clipboard history and system resources. Pins beneath it can show two labeled cards or four compact icons. The remaining selected tools stay in the utility grid, without repeating the featured tool or visible pins.
+
+<table>
+  <tr>
+    <td width="50%"><strong>Featured screenshot controls</strong><br /><img src="docs/images/bar-tools-screenshot.png" alt="Featured Screenshot tool with capture choices and editor and settings shortcuts" /></td>
+    <td width="50%"><strong>Featured audio mixer</strong><br /><img src="docs/images/bar-tools-mixer.png" alt="Featured Audio mixer with volume and microphone sliders and Apps, Output and Input controls" /></td>
+  </tr>
+  <tr>
+    <td><strong>Two labeled shortcuts</strong><br /><img src="docs/images/bar-tools-pins-labels.png" alt="Two labeled shortcuts beneath the featured tool" /></td>
+    <td><strong>Four icon shortcuts</strong><br /><img src="docs/images/bar-tools-pins-icons.png" alt="Four compact icon shortcuts beneath the featured tool" /></td>
+  </tr>
+</table>
+
 ### Bar settings
 
 Settings is always the last icon in the sidebar. Its collapsible groups cover appearance, layout, the status pill, notifications, tools, media and advanced options. Right-click a Home card and choose **Customize** to rearrange cards.
@@ -53,11 +66,7 @@ Settings is always the last icon in the sidebar. Its collapsible groups cover ap
 
 The status pill can show readings, time and media, with options for persistent visibility, left/right information, hover playback and timer bubbles. More widgets, including calendars, clocks, notes, reminders and Smart Stacks, can be added to the sidebar.
 
-Zephyrus Gprove adds performance, GPU, fan, battery-charge and keyboard controls for supported laptops.
-
 With the Bar along the top edge, double-click its empty top or bottom center to close it. The first click shows a semicircular pulse.
-
-Click media artwork to bring its source forward. For Chrome, Winprove selects the matching tab. If a tab is unavailable or several tabs match, it reports that instead of choosing another window.
 
 ## FPS display
 
