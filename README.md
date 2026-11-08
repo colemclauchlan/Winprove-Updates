@@ -88,6 +88,8 @@ Turn off **Show options after screenshot** to choose one automatic action: copy 
 
 **Windows Mods → Windows → Window pinning** keeps chosen app windows on top. Enable it, then use the recorded shortcut or window picker. App exclusions and a Gaming / Lite pause are in its options. Only windows pinned by Winprove are restored when you disable it or close the app.
 
+<img src="docs/images/window-pinning.png" alt="Window pinning settings" width="500" />
+
 **Windows Mods → Appearance → Automatic Windows theme** switches Windows apps and surfaces between light and dark at your chosen times. The two targets can be selected separately. It starts off and can pause during Gaming / Lite mode. Manual appearance changes stay in place until the next scheduled period.
 
 ![Automatic Windows theme settings](docs/images/automatic-windows-theme.png)
