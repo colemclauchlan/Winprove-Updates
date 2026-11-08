@@ -78,6 +78,24 @@ Turn off **Show options after screenshot** to choose one automatic action: copy 
 
 ![Screenshot output settings](docs/images/screenshot-output.png)
 
+## Widgets
+
+**Unit Converter** covers 13 quantity groups, including length, temperature, speed and data. Choose the units, enter an amount, swap the direction or copy the result. It works in the Bar, taskbar, desktop and Smart Stacks.
+
+<img src="docs/images/unit-converter.png" alt="Unit Converter widget" width="344" />
+
+## Windows Mods and Power tools
+
+**Windows Mods → Windows → Window pinning** keeps chosen app windows on top. Enable it, then use the recorded shortcut or window picker. App exclusions and a Gaming / Lite pause are in its options. Only windows pinned by Winprove are restored when you disable it or close the app.
+
+**Windows Mods → Appearance → Automatic Windows theme** switches Windows apps and surfaces between light and dark at your chosen times. The two targets can be selected separately. It starts off and can pause during Gaming / Lite mode. Manual appearance changes stay in place until the next scheduled period.
+
+![Automatic Windows theme settings](docs/images/automatic-windows-theme.png)
+
+**Windows Mods → Power tools → File checksums** calculates SHA-256, SHA-384 or SHA-512 for selected files. Paste an expected checksum or compare two files. Large reads show progress and can be cancelled; leaving the tab cancels the work too. Files are never changed.
+
+![File checksum comparison](docs/images/file-checksums.png)
+
 ## FPS display
 
 Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It also works in the Bar, Windows taskbar and on the desktop.
