@@ -53,6 +53,8 @@ Settings is always the last icon in the sidebar. Its collapsible groups cover ap
 
 The status pill can show readings, time and media, with options for persistent visibility, left/right information, hover playback and timer bubbles. More widgets, including calendars, clocks, notes, reminders and Smart Stacks, can be added to the sidebar.
 
+Zephyrus Gprove adds performance, GPU, fan, battery-charge and keyboard controls for supported laptops.
+
 With the Bar along the top edge, double-click its empty top or bottom center to close it. The first click shows a semicircular pulse.
 
 Click media artwork to bring its source forward. For Chrome, Winprove selects the matching tab. If a tab is unavailable or several tabs match, it reports that instead of choosing another window.
