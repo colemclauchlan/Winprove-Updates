@@ -68,6 +68,8 @@ The status pill can show readings, time and media, with options for persistent v
 
 With the Bar along the top edge, double-click its empty top or bottom center to close it. The first click shows a semicircular pulse.
 
+**Gaming mode** on Home uses the same setting as **Settings → Background → Lite mode**. The controller icon expands on hover and stays open with **Enabled** while the mode is on, in both the hub and Bar. It pauses tracking, sensors, traffic capture, automatic scans and update checks, media observation and animated wallpapers, and reduces animations. Turning it off restores your saved choices. Manual tools and enabled Windows mods remain available. Downloads and Windows changes already in progress aren't interrupted.
+
 ## FPS display
 
 Add FPS display from Widgets, or enable its corner overlay in Windows Mods. It also works in the Bar, Windows taskbar and on the desktop.
