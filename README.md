@@ -86,7 +86,9 @@ With the Bar along the top edge, double-click its empty top or bottom center to 
 
 The hub's bell opens saved notification history, with unread and source filters, mark-read and clear actions. **Off**, **On** and **Do not disturb** control Bar notifications; they don't change Windows notification settings.
 
-**Copy Windows history** is opt-in and mirrors available notifications locally. Clearing Winprove's history leaves Windows originals alone. **Dismiss copied originals** requires a supported packaged build, the Windows notification capability and user permission. It is unavailable in the normal unpackaged preview. Where supported, it dismisses only newly copied notifications after a successful save; it doesn't block banners before delivery.
+The hub’s bell opens notification history. **Notification settings → Set up Windows access** registers the bundled signed identity package, restarts Winprove, then asks Windows for permission. Preview builds ask before trusting their dedicated signing certificate for your Windows account. Production packages use a trusted publisher certificate. Portable copies leave Windows registration unchanged.
+
+**Dismiss copied originals** keeps new notifications in Winprove and removes their Windows copy only after it is saved. Existing Windows history stays in place. A Windows banner may appear before the copy is dismissed; notification access does not intercept banners before delivery.
 
 ## Screenshots
 
@@ -105,6 +107,8 @@ The gallery supports multiple selections and select-all for the visible results.
 <img src="docs/images/unit-converter.png" alt="Unit Converter widget" width="344" />
 
 ## Windows Mods and Power tools
+
+**Windows Mods → Taskbar → Taskbar Restart Explorer** adds **Restart Explorer** to the empty taskbar’s right-click menu. It asks the current shell to exit normally and starts it again if Windows has not already done so. If the shell does not close, it leaves it running.
 
 **Windows Mods → Windows → Window pinning** keeps chosen app windows on top. Enable it, then use the recorded shortcut or window picker. App exclusions and a Gaming / Lite pause are in its options. Only windows pinned by Winprove are restored when you disable it or close the app.
 
