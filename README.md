@@ -86,7 +86,7 @@ With the Bar along the top edge, double-click its empty top or bottom center to 
 
 The hub's bell opens saved notification history, with unread and source filters, mark-read and clear actions. **Off**, **On** and **Do not disturb** control Bar notifications; they don't change Windows notification settings.
 
-The hub’s bell opens notification history. **Notification settings → Set up Windows access** registers the bundled signed identity package, restarts Winprove, then asks Windows for permission. Preview builds ask before trusting their dedicated signing certificate for your Windows account. Production packages use a trusted publisher certificate. Portable copies leave Windows registration unchanged.
+The hub’s bell opens notification history. **Notification settings → Set up Windows access** registers the bundled signed identity package, restarts Winprove, then asks Windows for permission. Preview builds need one-time administrator approval for their dedicated certificate in Trusted People; notification registration belongs to your account. Production packages use a trusted publisher certificate. Portable copies leave Windows registration unchanged. No root certificate or Developer Mode change is used.
 
 **Dismiss copied originals** keeps new notifications in Winprove and removes their Windows copy only after it is saved. Existing Windows history stays in place. A Windows banner may appear before the copy is dismissed; notification access does not intercept banners before delivery.
 
