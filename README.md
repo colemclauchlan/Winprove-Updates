@@ -90,6 +90,8 @@ The hub’s bell opens notification history. **Notification settings → Set up 
 
 **Dismiss copied originals** keeps new notifications in Winprove and removes their Windows copy only after it is saved. Existing Windows history stays in place. A Windows banner may appear before the copy is dismissed; notification access does not intercept banners before delivery.
 
+Captured notifications go directly to the Bar’s notification queue. If an enabled Bar cannot acknowledge a message, Windows keeps its original and Winprove retries. Denied or revoked Windows access stops capture; it does not switch to a database reader.
+
 ## Screenshots
 
 Screenshot settings include a magnified-reticle switch and an optional step to adjust the selected area before capturing. Drag to move or resize it, then press Enter or double-click to capture.
